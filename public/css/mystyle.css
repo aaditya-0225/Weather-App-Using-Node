@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(81, 141, 238);
+    background-image: url('bg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:auto;   
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.container{
+    margin: 0;  
+    font-family: "Poppins", sans-serif;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    min-height: 100vh;  
+    flex-direction: column;  
+    border-radius: 20px;
+ 
+}
+
+.container .my-button{
+    background-color: rgb(53, 146, 222);
+    color: rgb(240, 248, 255);
+    padding: 10px;
+    border: 8px;
+
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #b9d4dc;
+    color: white;
+    border-radius: 5px;
+}
+h4{
+    color:lavender;
+    border: #b9d4dc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+h5{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
